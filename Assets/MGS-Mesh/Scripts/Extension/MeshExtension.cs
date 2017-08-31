@@ -45,8 +45,8 @@ namespace Developer.Mesh
                 foreach (var material in materials)
                 {
                     materialList.Add(material);
-                }//foreach()_end
-            }//for()_end
+                }
+            }
             var newMesh = new Mesh();
             newMesh.CombineMeshes(combines, false);
             newMesh.Optimize();
@@ -55,7 +55,7 @@ namespace Developer.Mesh
             meshSave.AddComponent<MeshFilter>().sharedMesh = newMesh;
             meshSave.AddComponent<MeshCollider>().sharedMesh = newMesh;
             meshSave.AddComponent<MeshRenderer>().sharedMaterials = materialList.ToArray();
-        }//MultiCombine()_end
+        }
         #endregion
-    }//class_end
-}//namespace_end
+    }
+}

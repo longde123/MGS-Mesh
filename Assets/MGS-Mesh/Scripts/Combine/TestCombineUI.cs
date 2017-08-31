@@ -32,11 +32,11 @@ namespace Developer.Mesh
         #region Private Method
         void OnGUI()
         {
-            if(GUILayout.Button("Combine"))
+            if (GUILayout.Button("Combine"))
             {
                 DMesh.MultiCombine(meshesRoot, meshSave);
             }
-        }//OnGUI()_end
+        }
         #endregion
-    }//class_end
-}//namespace_end
+    }
+}
