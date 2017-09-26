@@ -1,18 +1,28 @@
 ==========================================================================
-  Copyright (C), 2017-2018, Mogoson tech. Co., Ltd.
+  Copyright (C), 2017-2018, Mogoson Tech. Co., Ltd.
   Name: MGS-Mesh
-  Author: Mogoson   Version: 1.0   Date: 5/24/2017
+  Author: Mogoson   Version: 0.1.0   Date: 5/24/2017
 ==========================================================================
-  [Summeray]
-    This package can be used to combine meshes in Unity3D scene.
+  [Summary]
+    Unity plugin for combine Meshes in scene run time.
 --------------------------------------------------------------------------
   [Environment]
-    Package applies to Unity3D 5.0, .Net Framework 3.0 or above version.
+    Unity 5.0 or above.
+    .Net Framework 3.0 or above.
+--------------------------------------------------------------------------
+  [Achieve]
+    DMesh : Combine multi Meshes to a Mesh.
 --------------------------------------------------------------------------
   [Usage]
-    Find the demos in the path "MGS-Mesh/Scenes".
-    Understand the usages of component scripts in the demos.
-    Use the compnent scripts in your project.
+    Use the Developer.Mesh namespace.
+
+    Call the MultiCombine method of DMesh class (example TestCombineUI).
+--------------------------------------------------------------------------
+  [Demo]
+    Demos in the path "MGS-Mesh\Scenes" provide reference to you.
+--------------------------------------------------------------------------
+  [Resource]
+    https://github.com/mogoson/MGS-Mesh.
 --------------------------------------------------------------------------
   [Contact]
     If you have any questions, feel free to contact me at mogoson@qq.com.
