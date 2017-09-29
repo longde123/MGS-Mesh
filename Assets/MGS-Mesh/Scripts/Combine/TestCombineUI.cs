@@ -17,10 +17,10 @@
  *     1.     Mogoson     5/24/2017       0.1.0        Create this file.
  *************************************************************************/
 
-namespace Developer.Mesh
-{
-    using UnityEngine;
+using UnityEngine;
 
+namespace Developer.ExtensionMesh
+{
     [AddComponentMenu("Developer/Mesh/TestCombineUI")]
     public class TestCombineUI : MonoBehaviour
     {
@@ -34,7 +34,7 @@ namespace Developer.Mesh
         {
             if (GUILayout.Button("Combine"))
             {
-                DMesh.MultiCombine(meshesRoot, meshSave);
+                MeshCombiner.MultiCombine(meshesRoot, meshSave);
             }
         }
         #endregion

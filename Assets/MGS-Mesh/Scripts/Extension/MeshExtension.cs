@@ -17,12 +17,12 @@
  *     1.     Mogoson     5/24/2017       0.1.0        Create this file.
  *************************************************************************/
 
-namespace Developer.Mesh
-{
-    using System.Collections.Generic;
-    using UnityEngine;
+using System.Collections.Generic;
+using UnityEngine;
 
-    public static class DMesh
+namespace Developer.ExtensionMesh
+{
+    public static class MeshCombiner
     {
         #region Public Method
         /// <summary>
