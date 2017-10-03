@@ -11,12 +11,12 @@
     .Net Framework 3.0 or above.
 --------------------------------------------------------------------------
   [Achieve]
-    DMesh : Combine multi Meshes to a Mesh.
+    MeshCombiner : Combine multi Meshes to a Mesh.
 --------------------------------------------------------------------------
   [Usage]
-    Use the Developer.Mesh namespace.
+    Use the "Developer.ExtensionMesh" namespace.
 
-    Call the MultiCombine method of DMesh class (example TestCombineUI).
+    Call the MultiCombine method of MeshCombiner class (example TestCombineUI).
 --------------------------------------------------------------------------
   [Demo]
     Demos in the path "MGS-Mesh\Scenes" provide reference to you.

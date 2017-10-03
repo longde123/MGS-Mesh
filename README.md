@@ -12,7 +12,7 @@
 - Unity provide the API(CombineMeshes method of Mesh class) to combine multi Meshes to a Mesh.
 
 ## Achieve
-- DMesh : Combine multi Meshes to a Mesh.
+- MeshCombiner : Combine multi Meshes to a Mesh.
 
 ## Preview
 - Meshes

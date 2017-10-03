@@ -15,7 +15,7 @@
 - Unity3D提供Mesh.CombineMeshes方法合并网格。
 
 ## 实现
-- DMesh：合并零散模型，组建网格过滤器和网格渲染器。
+- MeshCombiner：合并零散模型，组建网格过滤器和网格渲染器。
 
 ## 图示
 - Meshes
