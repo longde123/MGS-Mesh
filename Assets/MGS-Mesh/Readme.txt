@@ -14,7 +14,7 @@
     MeshCombiner : Combine multi Meshes to a Mesh.
 --------------------------------------------------------------------------
   [Usage]
-    Use the "Developer.ExtensionMesh" namespace.
+    Use the "Developer.MeshExtension" namespace.
 
     Call the MultiCombine method of MeshCombiner class (example TestCombineUI).
 --------------------------------------------------------------------------

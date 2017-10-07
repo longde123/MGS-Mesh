@@ -19,9 +19,9 @@
 
 using UnityEngine;
 
-namespace Developer.ExtensionMesh
+namespace Developer.MeshExtension
 {
-    [AddComponentMenu("Developer/Mesh/TestCombineUI")]
+    [AddComponentMenu("Developer/MeshExtension/TestCombineUI")]
     public class TestCombineUI : MonoBehaviour
     {
         #region Property and Field
@@ -33,9 +33,7 @@ namespace Developer.ExtensionMesh
         private void OnGUI()
         {
             if (GUILayout.Button("Combine"))
-            {
                 MeshCombiner.MultiCombine(meshesRoot, meshSave);
-            }
         }
         #endregion
     }

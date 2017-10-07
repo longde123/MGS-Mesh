@@ -20,7 +20,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Developer.ExtensionMesh
+namespace Developer.MeshExtension
 {
     public static class MeshCombiner
     {
