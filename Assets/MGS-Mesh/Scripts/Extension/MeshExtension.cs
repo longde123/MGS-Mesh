@@ -1,20 +1,13 @@
 /*************************************************************************
  *  Copyright (C), 2017-2018, Mogoson Tech. Co., Ltd.
- *  FileName: MeshExtension.cs
- *  Author: Mogoson   Version: 0.1.0   Date: 5/24/2017
- *  Version Description:
- *    Internal develop version,mainly to achieve its function.
- *  File Description:
- *    Ignore.
- *  Class List:
- *    <ID>           <name>             <description>
- *     1.         MeshCombiner             Ignore.
- *  Function List:
- *    <class ID>     <name>             <description>
- *     1.
- *  History:
- *    <ID>    <author>      <time>      <version>      <description>
- *     1.     Mogoson     5/24/2017       0.1.0       Create this file.
+ *------------------------------------------------------------------------
+ *  File         :  MeshExtension.cs
+ *  Description  :  Extension of UnityEngine.Mesh.
+ *------------------------------------------------------------------------
+ *  Author       :  Mogoson
+ *  Version      :  0.1.0
+ *  Date         :  5/24/2017
+ *  Description  :  Initial development version.
  *************************************************************************/
 
 using System.Collections.Generic;
@@ -49,6 +42,7 @@ namespace Developer.MeshExtension
             }
             var newMesh = new Mesh();
             newMesh.CombineMeshes(combines, false);
+            newMesh.Optimize();
 
             //Add the new mesh to the meshSave.
             meshSave.AddComponent<MeshFilter>().sharedMesh = newMesh;
