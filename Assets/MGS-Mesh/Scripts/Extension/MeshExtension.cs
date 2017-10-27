@@ -42,8 +42,12 @@ namespace Developer.MeshExtension
             }
             var newMesh = new Mesh();
             newMesh.CombineMeshes(combines, false);
-            newMesh.Optimize();
 
+#if UNITY_5_5_OR_NEWER
+            //Mesh.Optimize() was removed in version 5.5.2p4.
+#else
+            newMesh.Optimize();
+#endif
             //Add the new mesh to the meshSave.
             meshSave.AddComponent<MeshFilter>().sharedMesh = newMesh;
             meshSave.AddComponent<MeshCollider>().sharedMesh = newMesh;
