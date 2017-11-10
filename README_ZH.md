@@ -17,14 +17,10 @@
 ## 实现
 - MeshCombiner：合并零散模型，组建网格过滤器和网格渲染器。
 
-## 图示
-- Meshes
+## 预览
+- CombineMeshes
 
-![Meshes](./Attachments/Meshes.png)
-
-- CombineMesh
-
-![CombineMesh](./Attachments/CombineMesh.png)
+![CombineMeshes](./Attachments/README_Image/CombineMeshes.gif)
 
 ## 联系
 - 如果你有任何问题或者建议，欢迎通过mogoson@qq.com联系我。
