@@ -1,8 +1,8 @@
 /*************************************************************************
- *  Copyright (C), 2017-2018, Mogoson Tech. Co., Ltd.
+ *  Copyright © 2017-2018 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  MeshExtension.cs
- *  Description  :  Extension of UnityEngine.Mesh.
+ *  Description  :  Extension for UnityEngine.Mesh.
  *------------------------------------------------------------------------
  *  Author       :  Mogoson
  *  Version      :  0.1.0
@@ -15,6 +15,9 @@ using UnityEngine;
 
 namespace Developer.MeshExtension
 {
+    /// <summary>
+    /// Combiner of mesh.
+    /// </summary>
     public static class MeshCombiner
     {
         #region Public Method
