@@ -1,7 +1,7 @@
-==========================================================================
-  Copyright (C), 2017-2018, Mogoson Tech. Co., Ltd.
+﻿==========================================================================
+  Copyright © 2017-2018 Mogoson. All rights reserved.
   Name: MGS-Mesh
-  Author: Mogoson   Version: 0.1.0   Date: 5/24/2017
+  Author: Mogoson   Version: 0.1.0   Date: 3/19/2018
 ==========================================================================
   [Summary]
     Unity plugin for combine Meshes in scene run time.

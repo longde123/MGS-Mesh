@@ -6,7 +6,7 @@
  *------------------------------------------------------------------------
  *  Author       :  Mogoson
  *  Version      :  0.1.0
- *  Date         :  5/24/2017
+ *  Date         :  3/19/2018
  *  Description  :  Initial development version.
  *************************************************************************/
 
@@ -17,7 +17,7 @@ namespace Developer.MeshExtension
     [AddComponentMenu("Developer/MeshExtension/TestCombineUI")]
     public class TestCombineUI : MonoBehaviour
     {
-        #region Property and Field
+        #region Field and Property
         public GameObject meshesRoot;
         public GameObject meshSave;
         #endregion

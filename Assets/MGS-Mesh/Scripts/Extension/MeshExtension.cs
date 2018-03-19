@@ -1,12 +1,12 @@
-/*************************************************************************
+﻿/*************************************************************************
  *  Copyright © 2017-2018 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  MeshExtension.cs
- *  Description  :  Extension for UnityEngine.Mesh.
+ *  Description  :  Extension of UnityEngine.Mesh.
  *------------------------------------------------------------------------
  *  Author       :  Mogoson
  *  Version      :  0.1.0
- *  Date         :  5/24/2017
+ *  Date         :  3/19/2018
  *  Description  :  Initial development version.
  *************************************************************************/
 
@@ -15,9 +15,6 @@ using UnityEngine;
 
 namespace Developer.MeshExtension
 {
-    /// <summary>
-    /// Combiner of mesh.
-    /// </summary>
     public static class MeshCombiner
     {
         #region Public Method
@@ -50,10 +47,21 @@ namespace Developer.MeshExtension
             //Mesh.Optimize was removed in version 5.5.2p4.
             newMesh.Optimize();
 #endif
-            //Add the new mesh to the meshSave.
-            meshSave.AddComponent<MeshFilter>().sharedMesh = newMesh;
-            meshSave.AddComponent<MeshCollider>().sharedMesh = newMesh;
-            meshSave.AddComponent<MeshRenderer>().sharedMaterials = materialList.ToArray();
+            var filter = meshSave.GetComponent<MeshFilter>();
+            if (filter == null)
+                filter = meshSave.AddComponent<MeshFilter>();
+
+            var renderer = meshSave.GetComponent<MeshRenderer>();
+            if (renderer == null)
+                renderer = meshSave.AddComponent<MeshRenderer>();
+
+            var collider = meshSave.GetComponent<MeshCollider>();
+            if (collider == null)
+                collider = meshSave.AddComponent<MeshCollider>();
+
+            filter.sharedMesh = newMesh;
+            collider.sharedMesh = newMesh;
+            renderer.sharedMaterials = materialList.ToArray();
         }
         #endregion
     }
