@@ -13,8 +13,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Developer.MeshExtension
+namespace Mogoson.MeshExtension
 {
+    /// <summary>
+    /// Combiner of mesh.
+    /// </summary>
     public static class MeshCombiner
     {
         #region Public Method
