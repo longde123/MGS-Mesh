@@ -13,7 +13,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Mogoson.MeshExtension
+namespace Mogoson.Extention
 {
     /// <summary>
     /// Combiner of mesh.

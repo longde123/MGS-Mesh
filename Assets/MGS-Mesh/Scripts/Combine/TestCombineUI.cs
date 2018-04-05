@@ -10,6 +10,7 @@
  *  Description  :  Initial development version.
  *************************************************************************/
 
+using Mogoson.Extention;
 using UnityEngine;
 
 namespace Mogoson.MeshExtension
