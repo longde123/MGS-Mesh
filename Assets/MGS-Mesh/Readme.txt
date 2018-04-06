@@ -14,7 +14,7 @@
     MeshCombiner : Combine multi Meshes to a Mesh.
 --------------------------------------------------------------------------
   [Usage]
-    Use the "Developer.MeshExtension" namespace.
+    Use the "Mogoson.Extension" namespace.
 
     Call the MultiCombine method of MeshCombiner class (example TestCombineUI).
 --------------------------------------------------------------------------
