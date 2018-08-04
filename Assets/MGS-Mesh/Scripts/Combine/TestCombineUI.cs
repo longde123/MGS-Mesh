@@ -13,8 +13,9 @@
 using Mogoson.Extention;
 using UnityEngine;
 
-namespace Mogoson.MeshExtension
+namespace Mogoson.UMesh
 {
+    [AddComponentMenu("Mogoson/UMesh/TestCombineUI")]
     public class TestCombineUI : MonoBehaviour
     {
         #region Field and Property
