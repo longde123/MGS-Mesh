@@ -15,9 +15,9 @@
 - MeshCombiner : Combine multi Meshes to a Mesh.
 
 ## Preview
-- CombineMeshes
+- Combine Meshes
 
-![CombineMeshes](./Attachments/README_Image/CombineMeshes.gif)
+![Combine Meshes](./Attachments/README_Image/CombineMeshes.gif)
 
 ## Contact
-- If you have any questions, feel free to contact me at mogoson@qq.com.
+- If you have any questions, feel free to contact me at mogoson@outlook.com.
