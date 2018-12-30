@@ -27,7 +27,9 @@ namespace Mogoson.UMesh
         private void OnGUI()
         {
             if (GUILayout.Button("Combine"))
+            {
                 MeshCombiner.MultiCombine(meshesRoot, meshSave);
+            }
         }
         #endregion
     }

@@ -52,15 +52,21 @@ namespace Mogoson.Extention
 #endif
             var filter = meshSave.GetComponent<MeshFilter>();
             if (filter == null)
+            {
                 filter = meshSave.AddComponent<MeshFilter>();
+            }
 
             var renderer = meshSave.GetComponent<MeshRenderer>();
             if (renderer == null)
+            {
                 renderer = meshSave.AddComponent<MeshRenderer>();
+            }
 
             var collider = meshSave.GetComponent<MeshCollider>();
             if (collider == null)
+            {
                 collider = meshSave.AddComponent<MeshCollider>();
+            }
 
             filter.sharedMesh = newMesh;
             collider.sharedMesh = newMesh;
